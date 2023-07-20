@@ -1,0 +1,62 @@
+{
+    "devices": [
+      
+      {
+        "name": "Camera",
+        "type": "Indoor",
+        "power_consumption": "8 watts",
+        "manufacturer": "Arlo",
+        "price": "$150"
+      },
+      {
+        "name": "Television",
+        "type": "Smart TV",
+        "power_consumption": "100 watts",
+        "manufacturer": "Samsung",
+        "price": "$500"
+      },
+
+      {
+        "name": "Refrigerator",
+        "type": "Double Door",
+        "power_consumption": "150 watts",
+        "manufacturer": "LG",
+        "price": "$800"
+      },
+
+
+      {
+        "name": "Microwave Oven",
+        "type": "Solo",
+        "power_consumption": "800 watts",
+        "manufacturer": "Panasonic",
+        "price": "$150"
+      },
+      {
+        "name": "Window and Door Sensors",
+        "type": "Wireless",
+        "power_consumption": "Battery Operated",
+        "manufacturer": "SimpliSafe",
+        "price": "$30 (per sensor)"
+      } , 
+
+      {
+        "name": "Blender",
+        "type": "Countertop",
+        "power_consumption": "600 watts",
+        "manufacturer": "Ninja",
+        "price": "$80"
+      }
+      ,
+    {
+      "name": "Toaster",
+      "type": "2-Slice",
+      "power_consumption": "800 watts",
+      "manufacturer": "Cuisinart",
+      "price": "$40"
+    }
+
+
+
+    ]
+  }
