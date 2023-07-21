@@ -126,7 +126,7 @@ $apartmentRow = mysqli_fetch_assoc($apartmentResult);
 
         <script>
             document.getElementById("submit").addEventListener("click", function() {
-                window.location.href = "a_php.php";
+                window.location.href = "recive.php";
             });
         </script>
 </body>

@@ -18,8 +18,6 @@ $row2 = mysqli_fetch_assoc($result1);
 
 
     $userId = $_GET['user_id'];
-    echo $userId;
-
     $user_gmail = $_GET['user_gmail'];
     $user_phone = $_GET['user_phone'];
     $password = $_GET['passward'];

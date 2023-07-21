@@ -69,17 +69,18 @@ else if ($bool == "2") {
     $sql = "UPDATE tbl_219_buildings SET status = '$status', floor = '$floor', apartment_number = '$apartmentNumber' WHERE building_id = '$buildingId'";
     $result = mysqli_query($con, $sql);
    
-    header('Location:' .URL. 'object.php?building_id=$buildingId');
+    header('Location: ' . URL . 'object.php?building_id=' . $buildingId);
 
 } 
 
 else {
 
-    echo $buildingId;
+
     $sql = "delete from tbl_219_buildings where building_id = '$buildingId'";
     
     $result = mysqli_query($con, $sql);
-    header('Location' .URL . 'index.php');
+    header('Location:' .URL. 'index.php');
+
 }
 
 $con->close();

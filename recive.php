@@ -10,5 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     
     $sql = "UPDATE tbl_219_apartment SET apartment_floor = '$apartmentFloor', devices = '$devices' WHERE apartment_id = '$apartmentId'";
     $result = mysqli_query($con, $sql);
+    header('Location: index.php');
+    
 }
 ?>

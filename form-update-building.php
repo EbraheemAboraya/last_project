@@ -5,7 +5,7 @@ header("Cache-Control: no-cache, no-store", true);
  session_start();
 if (!isset($_SESSION['user_id'])) {
 
- header("Location: login.php");
+    header('Location:' .URL. 'login.php');
 }
 
 
@@ -141,6 +141,7 @@ $row = mysqli_fetch_assoc($result);
 <script>
 document.getElementById("submit").addEventListener("click", function() {
     window.location.href="add_php.php";
+    
 });
 
 
